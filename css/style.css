@@ -28,3 +28,9 @@ a:visited {
    height: 200px; /*da rimuovere*/
    background-color: wheat;
 }
+
+.portfolio_img {
+   height: 200px; /*da rimuovere*/
+   border: 1px solid black; /*da rimuovere*/
+   background-color: yellowgreen;
+}
