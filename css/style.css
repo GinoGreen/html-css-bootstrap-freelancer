@@ -36,3 +36,19 @@ section.about {
    background-color: yellowgreen;
 }
 
+.label {
+   background-color: lightgrey; /*da rimuovere*/
+   border: 1px solid black; /*da rimuovere*/
+}
+
+.footer_top {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background-color: #3A546D;
+}
+
+.footer_bottom {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background-color: #2C3E50;
+}
