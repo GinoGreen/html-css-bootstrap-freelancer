@@ -1,0 +1,19 @@
+body {
+   color: #fff;
+}
+
+header {
+   line-height: 70px;
+   background-color: #2C3E50;
+}
+
+ul {
+   margin: unset;
+   list-style: none;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+   color: #FFF;
+}
