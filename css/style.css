@@ -23,9 +23,16 @@ a:visited {
    padding-bottom: 50px;
 }
 
+.border_b { /* border bottom senza radius radius*/
+   border: none;
+   border-bottom: 1px solid lightgrey;
+   border-radius: 0px;
+}
+
 .bg_green {
    background-color: #1ABC9C;
 }
+
 
 /* HEADER  */
 header {
@@ -60,13 +67,17 @@ header {
    border: 1px solid #FFF;
    padding: 8px 15px 11px;
 }
-.btn_custom:hover {
+.about.btn_custom:hover {
    color: #2C3E50;
    background-color: #fff;
 }
-.label {
-   background-color: lightgrey; /*da rimuovere*/
-   border: 1px solid black; /*da rimuovere*/
+
+/* CONTACT ME */
+button.send {
+   border: none;
+}
+button.send:hover {
+   background-color: #128971;
 }
 
 .footer_top {
