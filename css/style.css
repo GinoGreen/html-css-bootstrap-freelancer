@@ -2,6 +2,11 @@ body {
    color: #fff;
 }
 
+.container_60 {
+   width: 60%;
+   margin: 0 auto;
+}
+
 header {
    line-height: 70px;
    background-color: #2C3E50;
@@ -18,21 +23,26 @@ a:visited {
    color: #FFF;
 }
 
-section.jumbotron,
-section.about {
-   padding-top: 30px;
-   padding-bottom: 30px;
+.py_50 {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.bg_green {
    background-color: #1ABC9C;
 }
 
 .content_jumbo {
+   width: 800px;
+   max-width: 80%;
    height: 200px; /*da rimuovere*/
+   margin: auto;
    background-color: wheat;
 }
 
 .portfolio_img {
    height: 200px; /*da rimuovere*/
-   border: 1px solid black; /*da rimuovere*/
+   margin: 20px 10px;
    background-color: yellowgreen;
 }
 
@@ -42,13 +52,9 @@ section.about {
 }
 
 .footer_top {
-   padding-top: 30px;
-   padding-bottom: 30px;
    background-color: #3A546D;
 }
 
 .footer_bottom {
-   padding-top: 30px;
-   padding-bottom: 30px;
    background-color: #2C3E50;
 }
