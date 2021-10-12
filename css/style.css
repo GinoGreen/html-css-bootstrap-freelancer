@@ -7,11 +7,6 @@ body {
    margin: 0 auto;
 }
 
-header {
-   line-height: 70px;
-   background-color: #2C3E50;
-}
-
 ul {
    margin: unset;
    list-style: none;
@@ -32,18 +27,32 @@ a:visited {
    background-color: #1ABC9C;
 }
 
-.content_jumbo {
-   width: 800px;
-   max-width: 80%;
-   height: 200px; /*da rimuovere*/
-   margin: auto;
-   background-color: wheat;
+/* HEADER  */
+header {
+   line-height: 70px;
+   background-color: #2C3E50;
 }
 
+/* JUMBOTRON  */
+._jumbotron {
+   margin-top: 70px;
+}
+.content_jumbo {
+   width: 800px;
+   max-width: 100%;
+   margin: auto;
+}
+._avatar {
+   width: 200px;
+}
+
+/* PORTFOLIO  */
 .portfolio_img {
-   height: 200px; /*da rimuovere*/
    margin: 20px 10px;
-   background-color: yellowgreen;
+}
+.portfolio_img img {
+   width: 100%;
+   border-radius: 10px;
 }
 
 .label {
