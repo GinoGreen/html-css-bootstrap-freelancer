@@ -80,8 +80,20 @@ button.send:hover {
    background-color: #128971;
 }
 
+/* FOOTER  */
 .footer_top {
    background-color: #3A546D;
+}
+.icons .icon_social {
+   display: flex;
+   width: 45px;
+   height: 45px;
+   margin: 0 5px;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.1em;
+   border: 1px solid #FFF;
+   border-radius: 50%;
 }
 
 .footer_bottom {
