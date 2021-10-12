@@ -2,8 +2,8 @@ body {
    color: #fff;
 }
 
-.container_60 {
-   width: 60%;
+.container_70 {
+   width: 70%;
    margin: 0 auto;
 }
 
@@ -55,6 +55,15 @@ header {
    border-radius: 10px;
 }
 
+/* ABOUT  */
+.btn_custom {
+   border: 1px solid #FFF;
+   padding: 8px 15px 11px;
+}
+.btn_custom:hover {
+   color: #2C3E50;
+   background-color: #fff;
+}
 .label {
    background-color: lightgrey; /*da rimuovere*/
    border: 1px solid black; /*da rimuovere*/
