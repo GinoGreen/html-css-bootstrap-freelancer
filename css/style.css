@@ -32,6 +32,9 @@ a:visited {
 .bg_green {
    background-color: #1ABC9C;
 }
+a.color_green {
+   color: #1ABC9C;
+}
 
 
 /* HEADER  */
@@ -67,7 +70,7 @@ header {
    border: 1px solid #FFF;
    padding: 8px 15px 11px;
 }
-.about.btn_custom:hover {
+.about .btn_custom:hover {
    color: #2C3E50;
    background-color: #fff;
 }
@@ -98,4 +101,8 @@ button.send:hover {
 
 .footer_bottom {
    background-color: #2C3E50;
+   font-size: 0.8rem;
+}
+.footer_bottom i {
+   font-size: 0.8em;
 }
