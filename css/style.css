@@ -36,6 +36,17 @@ a.color_green {
    color: #1ABC9C;
 }
 
+/* LINEA SIMPATICA */
+.star_separator {
+   margin: 10px auto;
+   width: 40vw;
+   max-width: 440px;
+}
+.star_separator .line_star {
+   height: 3px;
+   width: 35%;
+   background-color: #FFF;
+}
 
 /* HEADER  */
 header {
@@ -48,8 +59,7 @@ header {
    margin-top: 70px;
 }
 .content_jumbo {
-   width: 800px;
-   max-width: 100%;
+   max-width: 800px;
    margin: auto;
 }
 ._avatar {
